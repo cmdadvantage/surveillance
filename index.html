@@ -16,8 +16,8 @@
         }
         body {
             font-family: 'Inter', sans-serif;
-            background: #fff; /* White background */
-            color: #333;
+            background: #F8F9FA; /* Soft White background */
+            color: #333333; /* Charcoal text */
             line-height: 1.6;
             overflow-x: hidden;
         }
@@ -27,13 +27,13 @@
             padding: 0 20px;
         }
         header {
-            background: rgba(255, 255, 0.95);
+            background: #2E3B4E; /* Dark Slate Gray */
             backdrop-filter: blur(12px);
             position: fixed;
             width: 100%;
             top: 0;
             z-index: 100;
-            box-shadow: 0 4px 15px rgba(0, 240, 255, 0.3);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
         }
         nav {
             display: flex;
@@ -44,14 +44,14 @@
         .logo {
             font-size: 30px;
             font-weight: 800;
-            color: #00f0ff;
+            color: #4682B4; /* Steel Blue */
             text-transform: uppercase;
-            letter-spacing: 3px;
+            letter-spacing: 2px;
             transition: transform 0.3s, text-shadow 0.3s;
         }
         .logo:hover {
-            transform: scale(1.1);
-            text-shadow: 0 0 20px rgba(0, 240, 255, 0.8);
+            transform: scale(1.05);
+            text-shadow: 0 0 15px rgba(70, 130, 180, 0.5);
         }
         nav ul {
             list-style: none;
@@ -59,7 +59,7 @@
             gap: 30px;
         }
         nav a {
-            color: #333;
+            color: #F8F9FA; /* Soft White */
             text-decoration: none;
             font-weight: 600;
             position: relative;
@@ -70,7 +70,7 @@
             position: absolute;
             width: 0;
             height: 2px;
-            background: #00f0ff;
+            background: #4682B4; /* Steel Blue */
             bottom: -5px;
             left: 0;
             transition: width 0.3s;
@@ -79,14 +79,14 @@
             width: 100%;
         }
         nav a:hover {
-            color: #00f0ff;
+            color: #4682B4; /* Steel Blue */
         }
         .hero {
             min-height: 100vh;
             display: flex;
             align-items: center;
             text-align: center;
-            background: #fff;
+            background: #F8F9FA; /* Soft White */
             position: relative;
             overflow: hidden;
             padding-top: 80px;
@@ -103,14 +103,14 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: radial-gradient(circle, rgba(0, 240, 255, 0.15) 0%, transparent 70%);
+            background: radial-gradient(circle, rgba(70, 130, 180, 0.1) 0%, transparent 70%);
             animation: pulse 8s infinite;
         }
         .hero h1 {
             font-size: 64px;
             font-weight: 800;
-            color: #00f0ff;
-            text-shadow: 0 0 25px rgba(0, 240, 255, 0.7);
+            color: #2E3B4E; /* Dark Slate Gray */
+            text-shadow: 0 0 10px rgba(46, 59, 78, 0.3);
             margin-bottom: 20px;
             animation: slideIn 1.5s ease-out;
         }
@@ -118,39 +118,39 @@
             font-size: 24px;
             max-width: 700px;
             margin: 0 auto 30px;
-            color: #333;
+            color: #333333; /* Charcoal */
             animation: slideIn 1.5s ease-out 0.3s;
             animation-fill-mode: both;
         }
         .btn {
             display: inline-block;
             padding: 15px 40px;
-            background: #00f0ff;
-            color: #333;
+            background: #4682B4; /* Steel Blue */
+            color: #F8F9FA; /* Soft White */
             font-weight: 600;
             border-radius: 50px;
             text-decoration: none;
             transition: all 0.3s;
-            box-shadow: 0 0 20px rgba(0, 240, 255, 0.6);
+            box-shadow: 0 0 15px rgba(70, 130, 180, 0.4);
             animation: popIn 1s ease-out 0.6s;
             animation-fill-mode: both;
         }
         .btn:hover {
-            background: #ff0000; /* Red hover for contrast */
-            color: #fff;
+            background: #C0392B; /* Matte Red */
+            color: #F8F9FA;
             transform: translateY(-5px);
-            box-shadow: 0 0 30px rgba(255, 0, 0, 0.9);
+            box-shadow: 0 0 20px rgba(192, 57, 43, 0.6);
         }
         .cities {
             padding: 100px 20px;
-            background: #f5f5f5;
+            background: #E5E7EB; /* Light Gray */
         }
         .cities h2 {
             text-align: center;
             font-size: 40px;
-            color: #00f0ff;
+            color: #2E3B4E; /* Dark Slate Gray */
             margin-bottom: 60px;
-            text-shadow: 0 0 15px rgba(0, 240, 255, 0.6);
+            text-shadow: 0 0 10px rgba(46, 59, 78, 0.3);
         }
         .city-grid {
             display: grid;
@@ -158,12 +158,12 @@
             gap: 20px;
         }
         .city-btn {
-            background: rgba(255, 255, 255, 0.8);
+            background: #F8F9FA; /* Soft White */
             backdrop-filter: blur(10px);
-            border: 1px solid rgba(0, 240, 255, 0.3);
+            border: 1px solid rgba(70, 130, 180, 0.2);
             padding: 15px;
             border-radius: 10px;
-            color: #333;
+            color: #333333; /* Charcoal */
             font-weight: 600;
             text-align: center;
             cursor: pointer;
@@ -172,27 +172,27 @@
             animation-fill-mode: both;
         }
         .city-btn:hover {
-            background: #00f0ff;
-            color: #fff;
+            background: #4682B4; /* Steel Blue */
+            color: #F8F9FA;
             transform: translateY(-5px);
-            box-shadow: 0 0 20px rgba(0, 240, 255, 0.7);
+            box-shadow: 0 0 15px rgba(70, 130, 180, 0.5);
         }
         .camera-list {
             padding: 100px 20px;
-            background: #fff;
+            background: #F8F9FA; /* Soft White */
         }
         .camera-list h2 {
             text-align: center;
             font-size: 40px;
-            color: #00f0ff;
+            color: #2E3B4E; /* Dark Slate Gray */
             margin-bottom: 20px;
-            text-shadow: 0 0 15px rgba(0, 240, 255, 0.6);
+            text-shadow: 0 0 10px rgba(46, 59, 78, 0.3);
         }
         .experience {
             text-align: center;
             max-width: 800px;
             margin: 0 auto 60px;
-            color: #666;
+            color: #666666; /* Slightly lighter charcoal */
             font-size: 18px;
         }
         .grid {
@@ -201,53 +201,53 @@
             gap: 40px;
         }
         .camera-card {
-            background: rgba(255, 255, 255, 0.8);
+            background: #E5E7EB; /* Light Gray */
             backdrop-filter: blur(10px);
             padding: 30px;
             border-radius: 15px;
-            border: 1px solid rgba(0, 240, 255, 0.3);
+            border: 1px solid rgba(70, 130, 180, 0.2);
             transition: transform 0.5s, box-shadow 0.5s;
             animation: fadeInUp 0.5s ease-out;
             animation-fill-mode: both;
         }
         .camera-card:hover {
-            transform: translateY(-15px);
-            box-shadow: 0 10px 30px rgba(0, 240, 255, 0.5);
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(70, 130, 180, 0.3);
         }
         .camera-card h3 {
             font-size: 28px;
             margin-bottom: 15px;
-            color: #00f0ff;
+            color: #2E3B4E; /* Dark Slate Gray */
         }
         .camera-card p {
-            color: #666;
+            color: #666666;
             margin-bottom: 15px;
         }
         .camera-card .expertise {
-            color: #ff0000; /* Red for emphasis */
+            color: #C0392B; /* Matte Red */
             font-weight: 600;
         }
         .article {
             padding: 100px 20px;
-            background: #f5f5f5;
+            background: #E5E7EB; /* Light Gray */
         }
         .article h2 {
             text-align: center;
             font-size: 40px;
-            color: #00f0ff;
+            color: #2E3B4E; /* Dark Slate Gray */
             margin-bottom: 40px;
-            text-shadow: 0 0 15px rgba(0, 240, 255, 0.6);
+            text-shadow: 0 0 10px rgba(46, 59, 78, 0.3);
         }
         .article-content {
             max-width: 800px;
             margin: 0 auto;
-            color: #333;
+            color: #333333; /* Charcoal */
             font-size: 18px;
             line-height: 1.8;
         }
         .article-content h3 {
             font-size: 28px;
-            color: #00f0ff;
+            color: #2E3B4E; /* Dark Slate Gray */
             margin: 30px 0 15px;
         }
         .article-content p {
@@ -260,17 +260,17 @@
         }
         .faq {
             padding: 100px 20px;
-            background: #fff;
+            background: #F8F9FA; /* Soft White */
         }
         .faq h2 {
             text-align: center;
             font-size: 40px;
-            color: #00f0ff;
+            color: #2E3B4E; /* Dark Slate Gray */
             margin-bottom: 60px;
-            text-shadow: 0 0 15px rgba(0, 240, 255, 0.6);
+            text-shadow: 0 0 10px rgba(46, 59, 78, 0.3);
         }
         .faq-item {
-            background: rgba(255, 255, 255, 0.8);
+            background: #E5E7EB; /* Light Gray */
             backdrop-filter: blur(10px);
             padding: 20px;
             border-radius: 10px;
@@ -284,29 +284,29 @@
         }
         .faq-item h3 {
             font-size: 24px;
-            color: #00f0ff;
+            color: #2E3B4E; /* Dark Slate Gray */
             margin-bottom: 10px;
         }
         .contact {
             padding: 100px 20px;
-            background: #f5f5f5;
+            background: #E5E7EB; /* Light Gray */
         }
         .contact h2 {
             text-align: center;
             font-size: 40px;
-            color: #00f0ff;
+            color: #2E3B4E; /* Dark Slate Gray */
             margin-bottom: 60px;
-            text-shadow: 0 0 15px rgba(0, 240, 255, 0.6);
+            text-shadow: 0 0 10px rgba(46, 59, 78, 0.3);
             animation: slideIn 1.5s ease-out;
         }
         form {
             max-width: 600px;
             margin: 0 auto;
-            background: rgba(255, 255, 255, 0.8);
+            background: #F8F9FA; /* Soft White */
             backdrop-filter: blur(10px);
             padding: 30px;
             border-radius: 15px;
-            border: 1px solid rgba(0, 240, 255, 0.3);
+            border: 1px solid rgba(70, 130, 180, 0.2);
             animation: fadeInUp 1.5s ease-out 0.3s;
             animation-fill-mode: both;
         }
@@ -317,38 +317,38 @@
             display: block;
             margin-bottom: 5px;
             font-weight: 600;
-            color: #00f0ff;
+            color: #2E3B4E; /* Dark Slate Gray */
         }
         input, textarea {
             width: 100%;
             padding: 12px;
-            background: rgba(255, 255, 255, 0.9);
-            border: 1px solid rgba(0, 240, 255, 0.3);
+            background: #E5E7EB; /* Light Gray */
+            border: 1px solid rgba(70, 130, 180, 0.2);
             border-radius: 5px;
-            color: #333;
+            color: #333333;
             font-size: 16px;
             transition: border-color 0.3s;
         }
         input:focus, textarea:focus {
-            border-color: #00f0ff;
+            border-color: #4682B4; /* Steel Blue */
             outline: none;
-            box-shadow: 0 0 10px rgba(0, 240, 255, 0.6);
+            box-shadow: 0 0 10px rgba(70, 130, 180, 0.4);
         }
         button {
             width: 100%;
             padding: 15px;
-            background: #00f0ff;
-            color: #333;
+            background: #4682B4; /* Steel Blue */
+            color: #F8F9FA; /* Soft White */
             font-weight: 600;
             border: none;
             border-radius: 5px;
             cursor: pointer;
             transition: all 0.3s;
-            box-shadow: 0 0 20px rgba(0, 240, 255, 0.6);
+            box-shadow: 0 0 15px rgba(70, 130, 180, 0.4);
         }
         button:hover {
-            background: #ff0000;
-            color: #fff;
+            background: #C0392B; /* Matte Red */
+            color: #F8F9FA;
             transform: translateY(-5px);
         }
         .modal {
@@ -364,50 +364,50 @@
             animation: fadeIn 0.5s ease-out;
         }
         .modal-content {
-            background: rgba(255, 255, 255, 0.95);
+            background: #F8F9FA; /* Soft White */
             backdrop-filter: blur(12px);
             max-width: 700px;
             margin: 50px auto;
             padding: 40px;
             border-radius: 15px;
-            border: 1px solid rgba(0, 240, 255, 0.3);
+            border: 1px solid rgba(70, 130, 180, 0.2);
             position: relative;
         }
         .modal-content h2 {
             font-size: 32px;
-            color: #00f0ff;
+            color: #2E3B4E; /* Dark Slate Gray */
             margin-bottom: 20px;
-            text-shadow: 0 0 10px rgba(0, 240, 255, 0.5);
+            text-shadow: 0 0 10px rgba(46, 59, 78, 0.3);
         }
         .close-btn {
             position: absolute;
             top: 15px;
             right: 15px;
             font-size: 28px;
-            color: #333;
+            color: #333333;
             cursor: pointer;
             transition: color 0.3s;
         }
         .close-btn:hover {
-            color: #00f0ff;
+            color: #4682B4; /* Steel Blue */
         }
         footer {
-            background: rgba(255, 255, 255, 0.95);
+            background: #2E3B4E; /* Dark Slate Gray */
             padding: 30px;
             text-align: center;
-            border-top: 1px solid rgba(0, 240, 255, 0.3);
+            border-top: 1px solid rgba(70, 130, 180, 0.2);
         }
         footer p {
             margin-bottom: 10px;
-            color: #333;
+            color: #F8F9FA; /* Soft White */
         }
         footer a {
-            color: #00f0ff;
+            color: #4682B4; /* Steel Blue */
             text-decoration: none;
             transition: color 0.3s;
         }
         footer a:hover {
-            color: #ff0000;
+            color: #C0392B; /* Matte Red */
             text-decoration: underline;
         }
         @keyframes slideIn {
@@ -427,9 +427,9 @@
             to { opacity: 1; }
         }
         @keyframes pulse {
-            0% { transform: scale(1); opacity: 0.5; }
-            50% { transform: scale(1.2); opacity: 0.3; }
-            100% { transform: scale(1); opacity: 0.5; }
+            0% { transform: scale(1); opacity: 0.3; }
+            50% { transform: scale(1.1); opacity: 0.2; }
+            100% { transform: scale(1); opacity: 0.3; }
         }
         .parallax {
             perspective: 1px;
@@ -446,7 +446,7 @@
         }
         .parallax-layer-back {
             transform: translateZ(-1px) scale(2);
-            background: radial-gradient(circle, rgba(0, 240, 255, 0.15) 0%, transparent 70%);
+            background: radial-gradient(circle, rgba(70, 130, 180, 0.1) 0%, transparent 70%);
         }
         @media (max-width: 768px) {
             .hero h1 { font-size: 40px; }
@@ -478,7 +478,7 @@
         <div class="parallax-layer parallax-layer-back"></div>
         <section class="hero">
             <div class="container">
-                <img src="Gemini_Generated_Image_4yzg0b4yzg0b4yzg.png" alt="Modern Security Camera Cleveland" style="max-width: 300px; margin: 0 auto 20px;">
+                <img src="Gemini_Generated_Image_3opdmk3opdmk3opd.png" alt="Modern Security Camera Cleveland" style="max-width: 300px; margin: 0 auto 20px;">
                 <!-- Replace src with your generated image URL -->
                 <h1>No Monthly Fees Security Camera Installation in Cleveland</h1>
                 <p>Protect your home with our no-contract, one-time payment systems. Control everything remotely via your phone or online, with all recordings stored locally. Experts in large-scale CCTV design.</p>
@@ -739,12 +739,12 @@
                 <p>We don’t just install cameras—we optimize them for speed and reliability. Our systems are configured for low-latency streaming, allowing you to view live feeds on your phone or computer without delays. Whether you’re monitoring a factory in Brunswick or a home in Bay Village, our hardware delivers unmatched clarity and responsiveness.</p>
                 
                 <h3>Cost-Effective Solutions That Put You in Control</h3>
-                <p>At Cleveland Security Cameras, we believe security shouldn’t break the bank. Our no-monthly-fee, one-time payment model eliminates the burden of ongoing costs, making you complete control over your system. Unlike subscription-based providers, we store all footage locally on your devices, ensuring privacy and eliminating cloud storage fees. You access your cameras remotely via secure apps, giving you the freedom to monitor your property from anywhere.</p>
-                <p>We’re also experts at cutting costs without compromising quality. By leveraging our deep industry knowledge, we select the most cost-effective hardware and installation methods for each project. For instance, we’ve helped car dealerships in North Royalton save thousands by optimizing camera placement to cover more area with fewer units. Colleges in Brecksville Heights benefit from our scalable systems that grow with their budgets, while factories in Cuyahoga Falls enjoy long-lasting hardware that reduces replacement costs.</p>
+                <p>At Cleveland Security Cameras, we believe security shouldn’t break the bank. Our no-monthly-fee, one-time payment model eliminates the burden of ongoing costs, giving you complete control over your system. Unlike subscription-based providers, we store all footage locally on your devices, ensuring privacy and eliminating cloud storage fees. You access your cameras remotely via secure apps, giving you the freedom to monitor your property from anywhere.</p>
+                <p>We’re also experts at cutting costs without compromising quality. By leveraging our deep industry knowledge, we select the most cost-effective hardware and installation methods for each project. For instance, we’ve helped car dealerships in North Royalton save thousands by optimizing camera placement to cover more area with fewer units. Colleges in Brecksville benefit from our scalable systems that grow with their budgets, while factories in Cuyahoga Falls enjoy long-lasting hardware that reduces replacement costs.</p>
                 <p>Our transparent pricing includes a free onsite estimate, so you know exactly what to expect. With a one-year warranty on all installations, you can trust our systems to deliver lasting protection.</p>
                 
                 <h3>The Art of CCTV Creation: Our Passion for Design</h3>
-                <p>We’re not just technicians—we’re designers who take pride in the art of CCTV creation. Every system we install is a masterpiece, crafted with meticulous attention to detail and an eye for elegance. We consider camera placement, wiring aesthetics, and user interface design to create a system that’s as beautiful as it is functional. Our installations are clean, discreet違う, and seamlessly integrated into your property’s architecture, whether it’s a historic home in Chagrin Falls or a modern office in Independence.</p>
+                <p>We’re not just technicians—we’re designers who take pride in the art of CCTV creation. Every system we install is a masterpiece, crafted with meticulous attention to detail and an eye for elegance. We consider camera placement, wiring aesthetics, and user interface design to create a system that’s as beautiful as it is functional. Our installations are clean, discreet, and seamlessly integrated into your property’s architecture, whether it’s a historic home in Chagrin Falls or a modern office in Independence.</p>
                 <p>Our design philosophy extends to the user experience. We configure intuitive apps and dashboards that make monitoring your cameras effortless. Whether you’re a tech-savvy homeowner in Hudson or a busy manager in a factory in Macedonia, our systems are designed to fit your lifestyle. We also offer training to ensure you’re confident using every feature, from live viewing to motion alerts and playback.</p>
                 
                 <h3>Why Choose Cleveland Security Cameras?</h3>
@@ -754,14 +754,14 @@
                     <li><strong>Specialized Focus</strong>: Exclusive dedication to CCTV, ensuring unmatched expertise.</li>
                     <li><strong>Large-Scale Expertise</strong>: Proven success with car dealerships, colleges, factories, institutions, and cities.</li>
                     <li><strong>Top-Tier Hardware</strong>: Partnerships with leading brands for fast, reliable systems.</li>
-                    <li><li>No Monthly Fees</li><li> One-Time Payment</strong>: Full control with local storage for cost savings and privacy.</li>
+                    <li><strong>No Monthly Fees, One-Time Payment</strong>: Full control with local storage for cost savings and privacy.</li>
                     <li><strong>Cost-Effective Solutions</strong>: Optimized designs to maximize value.</li>
                     <li><strong>Artistic Design</strong>: Beautiful, functional installations that enhance your property.</li>
                 </ul>
                 <p>At Cleveland Security Cameras, we’re committed to keeping Cleveland safe. Our systems have deterred crime, protected assets, and provided peace of mind to thousands across Northeast Ohio. Whether you’re in Cleveland, Lakewood, Parma, or any of our 100+ service cities, we’re here to deliver a security solution that works.</p>
                 
                 <h3>Join the Cleveland Security Camera Revolution</h3>
-                <p>Ready to protect your property with the best in security camera technology? Cleveland Security Cameras is your trusted partner for no-monthly-fee, one-time payment systems that deliver unmatched performance and control. Call us today at <a href="tel:+12163338245">(216) 333-8245</a> for a free onsite estimate or fill out our online form to get started. Let’s us design a CCTV masterpiece for your home, business, or institution.</p>
+                <p>Ready to protect your property with the best in security camera technology? Cleveland Security Cameras is your trusted partner for no-monthly-fee, one-time payment systems that deliver unmatched performance and control. Call us today at <a href="tel:+12163338245">(216) 333-8245</a> for a free onsite estimate or fill out our online form to get started. Let us design a CCTV masterpiece for your home, business, or institution.</p>
                 <p>With Cleveland Security Cameras, you’re not just getting a service—you’re gaining a partner in safety. Join us and experience the art and science of surveillance done right.</p>
             </div>
         </div>
@@ -775,7 +775,7 @@
             </div>
             <div class="faq-item">
                 <h3>What is your warranty policy?</h3>
-                <p>We offer a one-time payment-year warranty on all installations, covering parts and labor. Our systems are built to last, and we stand behind our work with this guarantee.</p>
+                <p>We offer a one-year warranty on all installations, covering parts and labor. Our systems are built to last, and we stand behind our work with this guarantee.</p>
             </div>
             <div class="faq-item">
                 <h3>Are there monthly fees or contracts?</h3>
@@ -788,65 +788,56 @@
             <h2>Contact Us for No-Fee Security Camera Installation</h2>
             <form action="https://formspree.io/f/mnnvvnnb" method="POST" id="contact-form">
                 <div class="form-group">
-                    <div><label for="name">Name</label>
+                    <label for="name">Name</label>
                     <input type="text" id="name" name="name" required aria-label="Name">
-                    </div>
                 </div>
                 <div class="form-group">
                     <label for="email">Email</label>
-                    <div><input type="email" name="email" id="email" required aria-label="Email">
-                    </div>
+                    <input type="email" id="email" name="email" required aria-label="Email">
                 </div>
                 <div class="form-group">
-                    <div><label for="message">Message</label>
-                    <textarea id="message" name="message-id" rows="4" required aria-label="Message"></textarea>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required aria-label="Message"></textarea>
                 </div>
-                <input type="hidden" name="city" id="value" value="Cleveland">
-                <button type="submit" id>Submit</button>
-            </div>
+                <input type="hidden" name="city" id="city" value="Cleveland">
+                <button type="submit">Submit</button>
             </form>
-            </div>
-            <p style="text-align: center; margin-top: 20px; margin-bottom: 2px;">
-                Call us at <span><a href="tel:+12163338245">(216) 333-8245</a></span>
-            </div>
+            <p style="text-align: center; margin-top: 20px;">
+                Call us at <a href="tel:+12163338245">(216) 333-8245</a>
+            </p>
         </div>
     </section>
-    <div id="city-modal-grid" class="modal">
+    <div id="city-modal" class="modal">
         <div class="modal-content">
-            <div> <span class="close-btn">×</span></div>
+            <span class="close-btn">&times;</span>
             <h2 id="modal-title"></h2>
-            <p id="modal-para-description"></p>
-            <ul id="modal-para-ul" style="ul"></ul>
-            <p id="modal-contact">Call us at <a href="tel:+12163338245">(216) 333-8245</a> for a free onsite estimate in <span id="modal-city-name-sp"></span>.</p>
-            <form action="https://formspree.io/f/mnnvvnnb" method="POST" id="modal-form-spree">
+            <p id="modal-description"></p>
+            <ul id="modal-benefits"></ul>
+            <p id="modal-contact">Call us at <a href="tel:+12163338245">(216) 333-8245</a> for a free onsite estimate in <span id="modal-city-name"></span>.</p>
+            <form action="https://formspree.io/f/mnnvvnnb" method="POST" id="modal-form">
                 <div class="form-group">
-                    <span><label for="modal-name-sp">Name</label>
-                    <input type="modal-name" name="name-sp" id="modal-name" required aria-label="Name-sp">
-                </div>
-                </div>
-                <div class="form-group">
-                    <label for="modal-email-sp">Email</label>
-                    <div><input type="modal-email" name="email-sp" id="modal-email" required aria-label="sp-Email">
-                </div>
+                    <label for="modal-name">Name</label>
+                    <input type="text" id="modal-name" name="name" required aria-label="Name">
                 </div>
                 <div class="form-group">
-                    <label for="mod-message">Message</label>
-                    <div><textarea id="modal-message-sp" name="modal-sp" rows="4" required aria-label="sp-Message"></textarea>
-                    </div>
+                    <label for="modal-email">Email</label>
+                    <input type="email" id="modal-email" name="email" required aria-label="Email">
                 </div>
-                <input type="hidden" id="modal-city-sp" name="city-sp" value="">
-                <div><button type="sp-submit">Submit</button> </button>
+                <div class="form-group">
+                    <label for="modal-message">Message</label>
+                    <textarea id="modal-message" name="message" rows="5" required aria-label="Message"></textarea>
+                </div>
+                <input type="hidden" id="modal-city" name="city" value="">
+                <button type="submit">Submit</button>
             </form>
-            </div>
         </div>
     </div>
-    <footer id="footer">
+    <footer>
         <div class="container">
-            <div>   <p id="para">© 2025 Cleveland Security Cameras. All rights reserved.</p>
-            <p id="para">Call us at <span><a href="tel:+12163338245"></span>(216) 333-8245</a></p>
+            <p>&copy; 2025 Cleveland Security Cameras. All rights reserved.</p>
+            <p>Call us at <a href="tel:+12163338245">(216) 333-8245</a></p>
         </div>
     </footer>
-    </div>
     <script>
         // Smooth scrolling
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -859,96 +850,95 @@
         });
 
         // Modal functionality with SEO
-        const modalCity = document.getElementById('city-modal-grid');
+        const modal = document.getElementById('city-modal');
         const modalTitle = document.getElementById('modal-title');
         const modalDescription = document.getElementById('modal-description');
         const modalBenefits = document.getElementById('modal-benefits');
         const modalCityInput = document.getElementById('modal-city');
-        const modalCityName = document.getElementById('modal-city-sp-name-sp');
+        const modalCityName = document.getElementById('modal-city-name');
         const closeBtn = document.querySelector('.close-btn');
-        const cityButtons = city.getDocumentById('city-btn');
+        const cityButtons = document.querySelectorAll('.city-btn');
         const head = document.head;
 
         cityButtons.forEach(button => {
             button.addEventListener('click', () => {
-                const cityNameSp = button.getAttribute('data-city-sp');
-                modalTitle.textContent = '${city} Security Camera Name Installation';
-                modalDescription.textContent = `Deter crime and protect your ${city} home security camera or business with our no-monthly-fee system, no-contract, one-time payment security camera systems. Enjoy remote viewing on your phone or computer or online, with all security camera records stored locally. Our 20 years of expertise ensure top-tier protection tailored to ${city}'s unique security camera needs.'}`;
-                modalBenefits.textContent = `
-                    <li>No monthly fees or fees contracts</li>
-                    to<Remote access via mobile or phone or online</li>
-                    <li>Local storage for all security camera recordings</li>
-                    <li>Free onsite security camera estimates in ${city}</li>
-                    <li>One-year warranty on security camera installations</li>
+                const city = button.getAttribute('data-city');
+                modalTitle.textContent = `${city} Security Camera Installation`;
+                modalDescription.textContent = `Deter crime and protect your ${city} home or business with our no-monthly-fee, no-contract, one-time payment security camera systems. Enjoy remote viewing on your phone or online, with all recordings stored locally. Our 20 years of expertise ensure top-tier protection tailored to ${city}'s unique needs.`;
+                modalBenefits.innerHTML = `
+                    <li>No monthly fees or contracts</li>
+                    <li>Remote access via mobile or online</li>
+                    <li>Local storage for all recordings</li>
+                    <li>Free onsite estimates in ${city}</li>
+                    <li>One-year warranty on installations</li>
                 `;
-                modalCityNameInput.value = city-sp;
-                modalCityNameSp.textContent = city-sp;
+                modalCityInput.value = city;
+                modalCityName.textContent = city;
 
-                // Add dynamic meta-text tags for SEO
-                const existingMeta = metaKeywords.querySelector('meta[name="city-sp-description"]');
+                // Add dynamic meta tags for SEO
+                const existingMeta = head.querySelector('meta[name="city-description"]');
                 if (existingMeta) existingMeta.remove();
-                const metaDesc = metaKeywords.createElement('meta');
-                metaDesc.name = 'city-description-sp';
-                metaDesc.content = `Security camera installation in ${city-sp}, Ohio security camera. No monthly fees, no security camera contracts, one-time payment, remote viewing, one-time payment, and local storage. Call us at 333-8245 for a free security camera estimate.'}`;
+                const metaDesc = document.createElement('meta');
+                metaDesc.name = 'city-description';
+                metaDesc.content = `Security camera installation in ${city}, Ohio. No monthly fees, no contracts, one-time payment, remote viewing, and local storage. Call (216) 333-8245 for a free estimate.`;
                 head.appendChild(metaDesc);
 
-                const existingKeywordsMeta = existingKeywords;
-                metaKeywords.querySelector('meta[name="city-keywords-sp"]');
+                const existingKeywords = head.querySelector('meta[name="city-keywords"]');
                 if (existingKeywords) existingKeywords.remove();
-                const metaKeywordsSp = document.createElement('meta');
-                metaKeywords-sp.name = 'city-keywords-sp';
-                metaKeywords.content = `security cameras ${city}, ${city-sp} security camera installation, no monthly-fee cameras, crime deterrence ${city}, ${city-sp} home security camera `;
-                head.appendChild(metaKeywords-sp);
+                const metaKeywords = document.createElement('meta');
+                metaKeywords.name = 'city-keywords';
+                metaKeywords.content = `security cameras ${city}, ${city} security camera installation, no monthly fee cameras, crime deterrence ${city}, ${city} home security`;
+                head.appendChild(metaKeywords);
 
-                modalCity.style.display = 'block';
+                modal.style.display = 'block';
             });
         });
 
         closeBtn.addEventListener('click', () => {
-            modalCity.style.display = 'none';
+            modal.style.display = 'none';
         });
 
         window.addEventListener('click', (event) => {
-            if (event.target === modalCity) {
-                modalCity.style.display = 'none';
+            if (event.target === modal) {
+                modal.style.display = 'none';
             }
         });
 
-        // Formspree validation
-        const formsSp = document.querySelectorAll('#contact-sp-form-sp, #modal-sp-form');
-        formsSp.forEach(sp-form => {
-            formsp.addEventListener('submit-sp', (event) => {
-                const sp-name = formsp.querySelector('input[name="name-sp"]').value.trim();
-                sp-nameconst sp-email = formsp.querySelector('input[name="sp-email"]').value.trim();
-                sp-emailconst sp-message = formsp.querySelector('textarea[name="sp-message"]').value.trim();
-                sp-messageifspformsp (!sp-name || !sp-email || !sp-message || sp) {
-                    formsp.preventDefault();
-                    alertsp('Please fill out all sp fields.');
+        // Form validation
+        const forms = document.querySelectorAll('#contact-form, #modal-form');
+        forms.forEach(form => {
+            form.addEventListener('submit', (event) => {
+                const name = form.querySelector('input[name="name"]').value.trim();
+                const email = form.querySelector('input[name="email"]').value.trim();
+                const message = form.querySelector('textarea[name="message"]').value.trim();
+                if (!name || !email || !message) {
+                    event.preventDefault();
+                    alert('Please fill out all fields.');
                 }
             });
-        }
+        });
 
         // Parallax effect
-        window.addEventListener('scrollEvent', () => {
-            const parallaxEffect = document.querySelector('.parallax-layer-back');
-            const scrollPositionEffect = window.pageYOffset;
-            parallaxEffect('translateZ(-1px) scale(2px) translateY(${scrollPosition * 0.5}px)`');
+        window.addEventListener('scroll', () => {
+            const parallaxLayer = document.querySelector('.parallax-layer-back');
+            const scrollPosition = window.pageYOffset;
+            parallaxLayer.style.transform = `translateZ(-1px) scale(2) translateY(${scrollPosition * 0.5}px)`;
         });
 
-        // Staggered animations for city security camera buttons and camera cards
+        // Staggered animations
         const cityButtonsArray = Array.from(cityButtons);
-        cityButtonsArray.forEach((city-btn, sp-index) => {
-            city-btn.style.animation-delay = `${index * 0.03ssp}s`;
+        cityButtonsArray.forEach((btn, index) => {
+            btn.style.animationDelay = `${index * 0.03}s`;
         });
 
-        const cameraCardsSp = Array.from(sp.querySelectorAll('.camera-sp'));
-        cameraCardsSp.forEach((sp-card, sp) => {
-            sp-card.style.animationDelay = `${sp-delay * 0.1}s`;
+        const cameraCards = Array.from(document.querySelectorAll('.camera-card'));
+        cameraCards.forEach((card, index) => {
+            card.style.animationDelay = `${index * 0.1}s`;
         });
 
-        const faqItemsSp = document.querySelectorAll('.faq-sp-item');
-        faqItemsSp.forEach((spItem, sp) => {
-            spItem.style.animation = `${sp-delay-delay * 0.2}ssp`;
+        const faqItems = document.querySelectorAll('.faq-item');
+        faqItems.forEach((item, index) => {
+            item.style.animationDelay = `${index * 0.2}s`;
         });
     </script>
 </body>
